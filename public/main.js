@@ -32,7 +32,7 @@ $(function() {
     var lastTypingTime;
     var $currentInput = $usernameInput.focus();
 
-    var socket = io('http://localhost:3000');
+    var socket = io('https://keikibook.herokuapp.com/');
 
     const addParticipantsMessage = data => {
         var message = '';
