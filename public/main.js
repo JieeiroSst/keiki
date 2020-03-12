@@ -25,9 +25,6 @@ $(function() {
     var $loginPage = $('.login.page'); // The login page
     var $chatPage = $('.chat.page'); // The chatroom page
 
-    var arrayUser = []; //array  user
-
-
     // Prompt for setting a username
     var username;
     var connected = false;
