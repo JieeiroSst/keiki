@@ -40,9 +40,9 @@ $(function() {
     const addParticipantsMessage = data => {
         var message = '';
         if (data.numUsers === 1) {
-            message += "there's 1 participant";
+            message += "there is" + data.numUsers + "participant";
         } else {
-            message += 'there are ' + data.numUsers + data.username + ' participants';
+            message += 'there are ' + data.numUsers + ':' + data.username + ' participants';
         }
         log(message);
     };
