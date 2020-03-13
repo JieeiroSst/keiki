@@ -287,8 +287,4 @@ $(function() {
             socket.emit('add user', username);
         }
     });
-
-    socket.on('reconnect_error', () => {
-        log('attempt to reconnect has failed');
-    });
 });
